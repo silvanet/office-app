@@ -1,0 +1,11 @@
+node_modules
+.DS_Store
+*.log
+.env
+public/fonts/
+public/img/
+.jpg
+.eot
+.ttf
+.woff
+config.js

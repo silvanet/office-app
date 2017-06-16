@@ -1,0 +1,5 @@
+kEY:
+DATABASE_URL
+
+VALUE:
+mongodb://officeAdmin:bravo357@ds131511.mlab.com:31511/office_db

@@ -1,0 +1,49 @@
+Static local building directory:
+
+open two terminal windows
+on one of them run mongod
+
+that runs mongodb
+
+SETUP THE DB IN MONGO :
+
+1. start 'mongod' in one terminal
+
+
+on second terminal
+
+
+2. open a second tab and start 'mongo' >> this is the shell
+3. command : use testOffice
+4. cut and paste the INSERTS above
+
+
+
+
+git checkout -b <newname>
+git branch
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Instructions said before I can push an app to heroku I have to initialize a local git repo and commit my files to it.
+
+So, I have to cd to where my app is. Locally it is in that newly cloned directory. So I cd to that directory.
+
+cd myapp
+$ git init
+Initialized empty Git repository in .git/
+$ git add .
+$ git commit -m "my first commit"
