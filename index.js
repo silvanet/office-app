@@ -1,5 +1,4 @@
 
-const {DATABASE_URL, PORT} = require('./config.js');
-console.log(DATABASE_URL);
+const {PORT} = require('./config.js');
 const server = require('./server.js');
-server.runServer(process.env.MONGO, PORT);
+server.runServer(process.env.DATABASE_URL, PORT);
