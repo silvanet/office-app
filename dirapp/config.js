@@ -1,5 +1,7 @@
-export const PORT = process.env.PORT || 8080;
-export const MORGAN = process.env.MORGAN || 'dev';  
+module.exports = {
+  PORT: process.env.PORT || 8080,
+  MORGAN: process.env.MORGAN || 'dev',
+};
 
 // exports.DATABASE_URL = process.env.DATABASE_URL ||
 //                        global.DATABASE_URL ||
